@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, Outlet,useNavigate} from 'react-router-dom';
 import Login from './components/Login';
 import Register from './components/Register';
-import PokemanCard from './components/Pokemancard';
+import PokemanCard from './components/PokemanCard.jsx';
 import Cookies from 'js-cookie';
 import PokemonDetail from './components/PokemonDetail';
 
